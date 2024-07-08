@@ -25,6 +25,7 @@ public class WriteText {
         this.password = password;
     }
 
+   
     public int writeInFile(File file){
 
         try(FileOutputStream fileOutputStream = new FileOutputStream(file);
